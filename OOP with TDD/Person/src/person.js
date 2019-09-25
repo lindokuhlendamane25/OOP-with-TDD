@@ -1,7 +1,8 @@
 class Person{
     
-constructor(name,age,gender,interests){
-this.name = name
+constructor(firstname,lastname,age,gender,interests){
+this.firstname = firstname
+this.lastname = lastname
 this.age = age
 this.gender = gender
 this.interests = interests
@@ -23,7 +24,7 @@ var arr2 = this.interests.split(",");
  for(var i = 0; i< arr2.length;i++){
         activity.push(arr2[i]);
    }
- console.log('Name:  ' + firstname + " Surname: " + lastname +  ' Age: ' + this.age +  ' Gender: ' + this.gender +  ' Interests: ' + activity);
+ console.log("Name: " + firstname + " Surname: " + lastname +   "Age: " + this.age +  "Gender: " + this.gender + " Interests: " );
 
 }
 
